@@ -1,0 +1,15 @@
+#foto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#car {
+    width: 50%;
+}
+body{
+    height: 100vh;
+}
+
+* {
+    height:auto;
+}
