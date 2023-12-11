@@ -24,6 +24,14 @@ header{
     left: 45%;
     top: 5%;
 }
+p{
+    font-size: larger;
+    font-weight:bold;
+}
+.tekst{
+    font-size: medium;
+    font-weight: 200;
+}
 
 * {
     height:auto;
