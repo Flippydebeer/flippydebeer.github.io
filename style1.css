@@ -29,7 +29,7 @@ header{
     transition-duration: 0.5s;
 }
 #emb:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
     transition-duration: 0.5s;
 }
 p{
