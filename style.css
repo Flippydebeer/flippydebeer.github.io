@@ -3,21 +3,21 @@ header{
     position: fixed;
     height: 12%;
     background-color: gray;
-    
+    z-index: 1;
 }
 #logo { 
     height: 12%;
     position: fixed;
     max-width: 10%;
     left: 45%;
-    transform: scale(1);
+    transform: scale(1) ;
     transition-duration: 0.5s;
 }
 #logo:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
     transition-duration: 0.5s;
 }
-body {
+body{
     height: 100%;
     align-items: flex-end;
 }
@@ -39,23 +39,116 @@ body {
 #alfred{
     height: 100%;
     margin-left: 5px;
-    
+    transform: scale(1);
+    transition-duration: 0.5s;
 }
+#alfred:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+
 #martha {
     height: 100%;
-    
+    transform: scale(1);
+    transition-duration: 0.5s;
 }
+#martha:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+
 #thomas {
     height: 100%;
-    
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+#thomas:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
 }
 #bruce {
     height: 100%;
-    margin-left: 5px;   
+    margin-left: 5px; 
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+#bruce:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#talia{
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#talia:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
 }
 #dick{
     height: 100%;
     margin-left: 5px;
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#dick:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#jason{
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+#jason:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#tim{
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#tim:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#damian{
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#damian:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#barb{
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#barb:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#steph{
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#steph:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#cas{
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#cas:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
+}
+#duke{
+    transform: scale(1) ;
+    transition-duration: 0.5s;
+}
+#duke:hover{
+    transform: scale(1) skewx(3deg);
+    transition-duration: 0.5s;
 }
 * {
     width: 100%;
