@@ -13,7 +13,7 @@ header{
     transition-duration: 0.5s;
 }
 #logo:hover{
-    transform: scale(1.1);
+    transform: scale(1.1)rotate(10deg);
     transition-duration: 0.5s;
 }
 body{
