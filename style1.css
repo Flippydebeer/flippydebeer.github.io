@@ -1,0 +1,45 @@
+#foto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+#car {
+    width: 50%;
+}
+body{
+    height: 100vh;
+    text-decoration: none;
+}
+header{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12%;
+}
+#emb{
+    height: 100%;
+    max-width: 10%;
+    position: sticky;
+    left: 45%;
+    top: 5%;
+}
+p{
+    font-size: larger;
+    font-weight:bold;
+    text-align: center;
+    margin: 10px;
+}
+.tekst{
+    font-size: medium;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+* {
+    height:auto;
+    padding:0; margin: 0;
+}
