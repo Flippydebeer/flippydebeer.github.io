@@ -27,10 +27,12 @@ header{
 p{
     font-size: larger;
     font-weight:bold;
+    text-align: center;
 }
 .tekst{
     font-size: medium;
     font-weight: 200;
+    text-align: center;
 }
 
 * {
