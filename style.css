@@ -5,6 +5,7 @@ header{
     background-color: gray;
     z-index: 1;
 }
+/*logo is fixed want op elke andere manier vulde hij het scherm*/
 #logo { 
     height: 12%;
     position: fixed;
@@ -36,119 +37,146 @@ body{
     justify-content: center;
     overflow: auto;
 }
+/* alle caracters zijn los want somige hebben wat extra css dan anderen en hover is later toe gevoegt*/
 #alfred{
     height: 100%;
     margin-left: 5px;
     transform: scale(1);
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #alfred:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 
 #martha {
     height: 100%;
     transform: scale(1);
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #martha:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 
 #thomas {
     height: 100%;
     transform: scale(1);
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #thomas:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #bruce {
     height: 100%;
     margin-left: 5px; 
     transform: scale(1);
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #bruce:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #talia{
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #talia:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #dick{
     height: 100%;
     margin-left: 5px;
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #dick:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #jason{
     transform: scale(1);
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #jason:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #tim{
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #tim:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #damian{
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #damian:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #barb{
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #barb:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #steph{
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #steph:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #cas{
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #cas:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 #duke{
     transform: scale(1) ;
     transition-duration: 0.5s;
+    z-index: 0;
 }
 #duke:hover{
     transform: scale(1) skewx(3deg);
     transition-duration: 0.5s;
+    z-index: 2;
 }
 * {
     width: 100%;
